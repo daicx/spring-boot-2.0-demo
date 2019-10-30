@@ -5,6 +5,8 @@
     <title>首页</title>
 </head>
 <body>
-${name}
+<a href="/user?lang=en_US">English</a>
+<a href="/user?lang=zh_CN">中文</a>
+${well}--${name}
 </body>
 </html>
