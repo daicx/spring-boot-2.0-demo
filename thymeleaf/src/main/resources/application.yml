@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  thymeleaf:
+    #是否开启缓存
+    cache: false
+    encoding: utf-8
+    mode: HTML5
+    #模板文件路径
+    prefix: classpath:/templates/
+    #模板文件后缀
+    suffix: .html
